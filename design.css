@@ -1,0 +1,162 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(69, 126, 126);
+    background-image: url(nnw7.jpg)
+}
+
+h1 {
+    color: teal;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.participation{
+    color: rgb(112, 112, 112);
+    text-shadow: 2px 2px 5px teal;
+    border-style: groove;
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+  
+.topnav a {
+    float: right;
+    color: #050505;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #85a89b;
+    color: teal;
+}
+  
+.topnav a.active {
+    background-color: #85a89b;
+    color: white;
+}
+
+div.gallery {
+  border: 1px solid rgb(204, 204, 204);
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.video{
+    margin-left: 300px;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+.Me{
+    margin-left: 530px;
+    margin-right: 300px;
+    padding: 10px;
+}
+
+.abtme{
+    text-align: justify;
+    letter-spacing: 3px;
+    border: 2px solid rgb(165, 142, 100);
+    padding: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.table1{
+    margin-right: 300px;
+    margin-left: 350px;
+    background-color: rgb(235, 213, 180);
+}
+
+.table2{
+    margin-right: 300px;
+    margin-left: 350px;
+    background-color: rgb(235, 213, 180);
+}
+
+.table3{
+    margin-right: 300px;
+    margin-left: 350px;
+    background-color: rgb(235, 213, 180);
+}
+.table4{
+    margin-right: 300px;
+    margin-left: 350px;
+    background-color: rgb(235, 213, 180);
+}
+
+.imgedu{
+    margin-left: 430px;
+    margin-right: 300px;
+    width: 500px;
+    height: 300px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(nnw10.jpg) 30 stretch;
+}
+
+.imgp{
+    margin-left: 340px;
+    margin-right: 300px;
+    width: 700px;
+    height: 500px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(nnw10.jpg) 30 stretch;
+}
+
+
